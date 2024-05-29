@@ -1,0 +1,32 @@
+﻿<Window x:Class="ProjectManagementSystem.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectManagementSystem"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Окно администратора" Height="475" Width="800" WindowState="Maximized">
+    <Grid Background="#ffdadada">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="88*"/>
+            <RowDefinition Height="88*"/>
+            <RowDefinition Height="88*"/>
+            <RowDefinition Height="109*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="553*"/>
+            <ColumnDefinition Width="111*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="1" Grid.RowSpan="4" Background="Snow" CornerRadius="20" Margin="0,91,0,0">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="6"/>
+            </Border.Effect>
+        </Border>
+        <Button x:Name="OpenAddUsersWindow" Grid.Column="1" Grid.Row="1" FontSize="20" Height="50" Margin="40 0 40 0 " Content="Добавить пользователя" Background="#FFFD6C19" BorderBrush="#FFC15517" Click="OpenAddUsersWindow_Click"/>
+        <Button x:Name="OpenEditorAllCardsWindow" Grid.Column="1" Grid.Row="2" FontSize="18" Height="50" Margin="40 0 40 0" Content="Просмотреть и редактировать все карточки проектов" Background="#FFFD6C19" BorderBrush="#FFC15517" Click="OpenEditorAllCardsWindow_Click"/>
+        <Button x:Name="Back" Grid.Column="1" Grid.Row="3" FontSize="18" Height="50" Margin="40 0 40 0" Content="Назад" Background="#FF40BF42" BorderBrush="#FF5BBF40" Click="Back_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="ProjectManagementSystem.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectManagementSystem"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="539" Width="908" WindowState="Maximized">
+    <Grid Background="#ffdadada">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="109*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="72*"/>
+            <ColumnDefinition Width="595*"/>
+            <ColumnDefinition Width="72*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="7" CornerRadius="0 30 30 0" Background="Snow">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="6"/>
+            </Border.Effect>
+        </Border>
+        <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="7" CornerRadius="30" Background="Snow">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="6"/>
+            </Border.Effect>
+        </Border>
+        <Button x:Name="OpenAdminWindow" Grid.Column="2" Grid.Row="1" Height="50" Margin="60 0 60 0" Content="Окно администратора" Background="#FFD46B39" BorderBrush="#FFA25835" Click="OpenAdminWindow_Click"/>
+        <Button x:Name="WatchAndEditTasks" Grid.Column="2" Grid.Row="3" Content="Просмотреть и радктировать задания" Background="#FF40BF42" BorderBrush="#FF5BBF40" Height="50" Margin="60 0 60 0" Click="WatchAndEditTasks_Click"/>
+        <Button x:Name="WatchAndEditCard" Grid.Column="2" Grid.Row="2" Content="Просмотреть и редактировать карточку проекта" Height="50" Margin="60 0 60 0" BorderBrush="#FFB72143" Background="#FFDC204B" Click="WatchAndEditCard_Click"/>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Project" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" FontWeight="Bold" Foreground="#FF43C520"/>
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="Management" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="23" FontWeight="Bold" Foreground="#FF43C520"/>
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="System" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" FontWeight="Bold" Foreground="#FF43C520"/>
+    </Grid>
+</Window>
