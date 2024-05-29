@@ -6,7 +6,6 @@ namespace ProjectManagementSystem
 {
     public partial class AddUsersWindow : Window
     {
-        //коментарий
         private int _indexRole;
         public AddUsersWindow()
         {
