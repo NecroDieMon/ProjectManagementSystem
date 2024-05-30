@@ -78,4 +78,4 @@
 
 <h3>Видео демонстрация:</h3>
 <h2>От лица администратора:</h2>
-ProjectManagementSystem/VideoDemonstration/AdminVideo.mp4
+https://github.com/NecroDieMon/ProjectManagementSystem/tree/master/ProjectManagementSystem/VideoDemonstration/AdminVideo.mp4
