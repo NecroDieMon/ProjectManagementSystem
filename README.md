@@ -75,3 +75,8 @@
 	<img src = "ProjectManagementSystem/Images/Screen9.png">
 	<p align="center">Рисунок 9 - окно редактирования карточек проекта</p>
 </figure>
+
+<h3>Видео демонстрация:</h3>
+<h2>От лица администратора:</h2>
+https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/39cae95f-5113-4fd8-ad19-46f91a8c84e1
+
