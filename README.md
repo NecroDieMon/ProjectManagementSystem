@@ -78,7 +78,5 @@
 
 <h3>Видео демонстрация:</h3>
 <h2>От лица администратора:</h2>
-
-
 https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/016ae518-9009-4f22-ac94-b257ec7e17bf
 
