@@ -78,15 +78,7 @@
 
 <h3>Видео демонстрация:</h3>
 <h2>От лица администратора:</h2>
-https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/bd336e60-1576-4e9a-878f-0c248cf8b915
-<h2>От лица управляющего проектом:</h2>
-https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/e4676d5b-22a8-4f70-9995-395ec4163dd7
-<h2>От лица сотрудника:</h2>
-https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/eba4a7ea-1e94-4cdb-b47e-1ce4b1d6ad17
 
 
-
-https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/41370d99-19e4-4e13-a285-dd1a27746ca7
-
-
+https://github.com/NecroDieMon/ProjectManagementSystem/assets/116455805/016ae518-9009-4f22-ac94-b257ec7e17bf
 
