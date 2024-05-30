@@ -39,3 +39,39 @@
 </ul>
 
 <h3>Скриншоты проекта:</h3>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen1.png">
+	<p align="center">Рисунок 1 - окно авторизации</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen2.png">
+	<p align="center">Рисунок 2 - главное меню от лица администратора</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen3.png">
+	<p align="center">Рисунок 3 - главное меню от лица управляющего проекта</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen4.png">
+	<p align="center">Рисунок 4 - главное меню от лица сотрудника</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen5.png">
+	<p align="center">Рисунок 5 - окно сотрудника</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen6.png">
+	<p align="center">Рисунок 6 - окно управляющего проекта</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen7.png">
+	<p align="center">Рисунок 7 - окно администратора</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen8.png">
+	<p align="center">Рисунок 8 - окно добавления пользователей</p>
+</figure>
+<figure>
+	<img src = "ProjectManagementSystem/Images/Screen9.png">
+	<p align="center">Рисунок 9 - окно редактирования карточек проекта</p>
+</figure>
