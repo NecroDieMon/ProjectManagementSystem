@@ -10,5 +10,8 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/projectmanagementdbmodel.context.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/projectmanagementdbmodel.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videodemonstration/adminvideo.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videodemonstration/employeevideo.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videodemonstration/managervideo.mp4")]
 
 

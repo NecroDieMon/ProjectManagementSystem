@@ -206,6 +206,9 @@
       <DependentUpon>ProjectManagementDBModel.edmx</DependentUpon>
       <LastGenOutput>ProjectManagementDBModel.cs</LastGenOutput>
     </Content>
+    <Content Include="VideoDemonstration\AdminVideo.mp4" />
+    <Content Include="VideoDemonstration\EmployeeVideo.mp4" />
+    <Content Include="VideoDemonstration\ManagerVideo.mp4" />
     <Resource Include="Images\Screen1.png" />
     <Resource Include="Images\Screen2.png" />
     <Resource Include="Images\Screen3.png" />
